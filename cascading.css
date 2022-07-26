@@ -1,0 +1,85 @@
+div,h1{
+    color : rgb(87, 253, 137) ;
+    text-decoration: underline ;
+    text-transform: uppercase;
+    text-align: center;
+}
+.intro{
+    color: aqua;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.classSelector{
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+#idSelector{
+    color: rgb(20, 221, 154);
+}
+body{
+    background-image: url('\\Users\\yogesh\\Desktop\\xworkz\\html files\\istockphoto-517188688-612x612.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.boxmodel{
+    padding: 50px 100px 50px 100px;
+    border: 5px double rgb(37, 212, 231);
+    margin: 100px ; 
+}
+
+.boxmodel1{
+   
+    border: 5px solid black;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.boxmodel2{
+    border: 5px solid saddlebrown;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f9f9f9;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(57, 188, 197);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: rgb(40, 18, 162);
+    color: rgb(138, 123, 123);
+  }
+  #first {
+    width: 200px;
+    height: 100px;
+    background: rgb(119, 6, 241);
+    position: relative;
+  }
+  #first #second {
+    width: 60%;
+    height: 60%;
+    background: rgb(26, 196, 230);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
